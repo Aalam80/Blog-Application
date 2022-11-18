@@ -1,0 +1,71 @@
+/* h2 a,h1 a {
+    color: brown;
+}
+
+h5{
+    color: green;
+}
+h5 p{
+    color: blueviolet;
+
+}
+p{
+    color: crimson;
+} */
+
+.page-header{
+    background-color: orangered;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding: 20px 20px 40px 40px;
+}
+
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active{
+    color: blueviolet;
+    font-size: 32px;
+    text-decoration: none;
+    font-family: 'Abril Fatface', cursive;
+
+
+
+
+}
+h1, h2, h3, h4{
+    font-family: 'Alfa Slab One', cursive;
+font-family: 'Bree Serif', serif;
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Bree Serif', sans-serif;
+font-family: 'Ubuntu' ,sans-serif; */
+}
+.date{
+    color: red;
+    float: right;
+    font-size: 14px;
+}
+.Post h2 a,
+.post h2 a:visited{
+    color: blue;
+    text-decoration: none;
+
+}
+.btn-secondary,
+.btn-secondary:visited{
+    color: orangered;
+    background: none;
+    border-color: orangered;
+}
+
+.btn-secondary:hover{
+    color: white;
+    background-color: orangered;
+}
+
+
+.add_new{
+    color: white;
+    text-decoration: none;
+}

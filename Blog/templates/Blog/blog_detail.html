@@ -1,0 +1,21 @@
+{% extends 'Blog/base.html' %}
+
+{% block content %}
+    <article class="post">
+    <h2>{{ data }}</h2>
+    <h5 class="date">publish date:<p>{{ data.publish_date }}</p></h5>
+    <h4>Author name:{{ data.author_name }}</h4>
+    <p>{{ data.content }}</p>
+    {% if user.is_authenticated %}
+        <a href="{% url 'Post_edit' pk=data.pk %}" class="btn btn-secondary">Edit</a>
+        <a href="{% url 'Post_delete' pk=data.pk %}" class="btn btn-primary">delete</a>
+    {% endif %}
+    </article>
+
+
+
+
+
+
+
+{% endblock %}
